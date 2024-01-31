@@ -3,14 +3,16 @@
 *A Telegram Bot, Which can send you restricted content by it's post link*
 
 ---
+Bot Link
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MaviytBot)
 
 ## Variables
 
 - `HASH` Your API Hash from my.telegram.org
 - `ID` Your API ID from my.telegram.org
 - `TOKEN` Your bot token from [BotFather](https://telegram.me/BotFather)
-- `STRING` Your pyrogram session string, you can get it from [VJ String Session Generator Bot](https://telegram.me/VJStringSessionBot)
-
+- `STRING` Your pyrogram session string
 ---
 
 # Usage
@@ -47,7 +49,3 @@ https://t.me/c/xxxx/101 - 120
 
 _note that space in between doesn't matter_
 
-### Credits
-
-- [BipinKrish](https://github.com/bipinkrish)
-- [Tech VJ](https://telegram.dog/Kingvj01)
