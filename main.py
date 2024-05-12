@@ -62,9 +62,9 @@ def progress(current, total, message, type):
 
 
 # start command
-@bot.on_message(filters.command(["start"]))
+@bot.on_message(filters.command(["sumit"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
-	bot.send_message(message.chat.id, f"**__👋 Hi** **{message.from_user.mention}**, **I am Save Restricted Bot, I can send you restricted content by it's post link__**\n\n{USAGE}",
+	bot.send_message(message.chat.id, f"**__👋 Hi** 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐕𝐢𝐝𝐞𝐨 𝐒𝐚𝐯𝐞 𝐁𝐨𝐭 🖲️ **I am Save Restricted Bot, I can send you restricted content by it's post link__**\n\n{USAGE}",
 	reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("🌐 Update Channel", url="https://t.me/official_satyam01")]]), reply_to_message_id=message.id)
 
 
